@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pitchayut Sudkaew — Profile</title>
+  <!-- Use relative path (same folder) -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header class="profile-header">
+      <nav class="top-nav">
+        <a class="nav-link" href="#home">Home</a>
+        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#skills">Skills</a>
+        <a class="nav-link" href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="home">
+      <!-- Profile Card -->
+      <section class="profile-card">
+        <header class="card-header">
+          <img class="avatar" src="img/S__41033731.jpg" alt="Pitchayut Sudkaew" />
+          <div>
+            <h1 id="name">Pitchayut Sudkaew</h1>
+            <p class="subtitle">Computer Science · Faculty of Science</p>
+          </div>
+        </header>
+
+        <section id="about" class="about">
+          <h2>About Me</h2>
+          <p>
+            Welcome to Pitchayut Sudkaew's Profile
+          </p>
+
+          <table class="info-table">
+            <thead>
+              <tr>
+                <th align="left">Label</th>
+                <th align="right">Value</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th align="left">Name</th>
+                <td align="right">Pitchayut Sudkaew</td>
+              </tr>
+              <tr>
+                <th align="left">Student ID</th>
+                <td align="right">68102010555</td>
+              </tr>
+              <tr>
+                <th align="left">Age</th>
+                <td align="right">20</td>
+              </tr>
+              <tr>
+                <th align="left">Birthday</th>
+                <td align="right">1<sup>st</sup> July 2005</td>
+              </tr>
+              <tr>
+                <th align="left">Faculty</th>
+                <td align="right">Science</td>
+              </tr>
+              <tr>
+                <th align="left">Major</th>
+                <td align="right">Computer Science</td>
+              </tr>
+              <tr>
+                <th align="left">Hobby</th>
+                <td align="right">Play Game, Exercise</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <div class="social">
+            <h3>Our College Instagram</h3>
+            <a class="link" href="https://www.instagram.com/comswu/" target="_blank" rel="noopener">
+              <img class="icon" src="img/Instagram_icon.png.webp" alt="Instagram" />
+              comswu
+            </a>
+          </div>
+        </section>
+        </section>
+        
+        <section class="skill-card">
+        <section id="skills" class="skills">
+          <h2>Skills</h2>
+          <div class="skill-list">
+            <span class="skill">Python</span>
+            <span class="skill">C++</span>
+          </div>
+
+          <h3>Activities</h3>
+          <div class="activity-list">
+            <ul>
+              <li>Weight Training</li>
+              <li>Badminton</li>
+              <li>Swimming</li>
+              <li>Table Tennis</li>
+            </ul>
+          </div>
+        </section>
+        </section>
+
+        <section class="contact-card">
+        <section id="contact" class="contact">
+          <h2>Contact</h2>
+
+          <table class="contact-table">
+            <thead>
+              <tr>
+                <th>Tel</th>
+                <th>Gmail</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="center">097-115-1411</td>
+                <td align="center">necrosscastgame@gmail.com</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <form class="contact-form" action="#" method="post">
+            <div class="form-row">
+              <label for="gender">Gender</label>
+              <select id="gender" name="gender">
+                <option value="" selected>Prefer not to say</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+              </select>
+            </div>
+
+            <div class="form-row">
+              <label for="username">Name</label>
+              <input type="text" id="username" name="username" placeholder="Your name" />
+            </div>
+
+            <div class="form-row">
+              <label for="gmail">Gmail</label>
+              <input type="email" id="gmail" name="gmail" placeholder="you@example.com" />
+            </div>
+
+            <div class="form-row">
+              <label for="tel">Tel</label>
+              <input type="tel" id="tel" name="tel" placeholder="000-000-0000" />
+            </div>
+
+            <div class="form-row">
+              <label for="message">Your Message</label>
+              <textarea id="message" name="message" rows="3" placeholder="Write something..."></textarea>
+            </div>
+
+            <button class="btn" type="submit">Submit</button>
+          </form>
+        </section>
+        
+      
+    </main>
+
+    <footer class="footer">
+      <p>Last updated: 2026 · Built for Web Programming Lab</p>
+    </footer>
+  </div>
+</body>
+</html>
